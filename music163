@@ -1,0 +1,145 @@
+<html lang="zh-cmn-Hans"><head>
+    <meta charset="UTF-8">
+<meta content="telephone=no,email=no" name="format-detection">
+<meta name="applicable-device" content="mobile">
+<link rel="canonical" href="https://music.163.com">
+<title>网易云音乐</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+<meta itemprop="name" content="网易云音乐">
+<!-- Open Graph on SEO -->
+<meta property="og:title" content="网易云音乐">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://music.163.com/m">
+<link rel="preconnect" href="https://acstatic-dun.126.net">
+<link rel="preconnect" href="https://ae.bdstatic.com">
+<link rel="preconnect" href="https://qa-wapm.igame.163.com">
+<link rel="preconnect" href="https://ac.dun.163yun.com">
+<link rel="preconnect" href="https://p2.music.126.net">
+<link rel="preconnect" href="https://s1.music.126.net">
+<link rel="preconnect" href="https://s3.music.126.net">
+<link rel="preconnect" href="https://s6.music.126.net">
+
+<script src="https://s6.music.126.net/static_public/5c25ca49ac1f4d2d427da0fa/1.1.0/musicapm.min.js" async=""></script><script>(function(){
+     if (window.MusicAPM) {
+        var puzzleEnv = 'prod' || 'prod';
+        var prodKey = '0cea6b61-ced7-430e-a234-d955f9ab36b2';
+        var testKey = '04554407-614f-4c72-a976-9efeeaf04f66';
+        var uploadToTest = puzzleEnv !== 'prod' && testKey;
+        var appKey = uploadToTest ? testKey : prodKey;
+        var uploadServer = uploadToTest ? 'https://qa-wapm.igame.163.com' : 'https://sentry.music.163.com/wapm';
+        var install = uploadToTest ? true: Math.random() <= 0.01
+
+        var options = {
+           enableSPA: true,
+           hashSPA: false,
+           warningImageSize: 400,
+           traceLongtask: true,
+           ignoreUrlPath: [{ rule: /\/\d{1,20}/g, target: '/**' }],
+           uploadServer: uploadServer,
+           syncConfig: false,
+           debug: uploadToTest
+        };
+        install && MusicAPM.install(appKey, options);
+   }
+})();</script><script src="https://s6.music.126.net/static_public/5b7eb1637eef609a0a828c74/sdk/3.26.4/music-raven.min.js" async="" crossorigin="anonymous"></script><script>(function () {
+    if (window.Raven) {
+        var puzzleEnv = 'prod' || 'prod';
+        var SENTRY_HOST = 'sentry.music.163.com';
+        var host = 'sentry.music.163.com' || SENTRY_HOST;
+        var options = {
+            sampleRate: 0.1,
+            ignoreErrors: [],
+            shouldSendCallback: function(data) {
+      return true;
+ },
+            autoBreadcrumbs: {"xhr":true,"console":true,"dom":true,"location":true,"sentry":true},
+            tags: {
+                puzzleEnv: 'prod'
+            },
+            withCredentials: host !== SENTRY_HOST
+    }
+    var onlyProd = undefined;
+    if (puzzleEnv === 'prod' || !onlyProd) {
+        var key = '9b84f58e74ed4a3fac006c8d71f29f49';
+        var project = '125';
+        var dsn = 'https://' + key + '@' + host + '/' + project;
+        if (window._sentryOnLoad) {
+            window._sentryOnLoad(dsn, options);
+        } else {
+            Raven.config(dsn, options).install();
+        }
+    }
+}
+})();</script><script src="https://s6.music.126.net/static_public/5c25ca49ac1f4d2d427da0fa/1.1.0/musicapm.min.js" async=""></script><script>(function(){
+     if (window.MusicAPM) {
+        var puzzleEnv = 'prod' || 'prod';
+        var prodKey = '0cea6b61-ced7-430e-a234-d955f9ab36b2';
+        var testKey = '04554407-614f-4c72-a976-9efeeaf04f66';
+        var uploadToTest = puzzleEnv !== 'prod' && testKey;
+        var appKey = uploadToTest ? testKey : prodKey;
+        var uploadServer = uploadToTest ? 'https://qa-wapm.igame.163.com' : 'https://sentry.music.163.com/wapm';
+        var install = uploadToTest ? true: Math.random() <= 0.01
+
+        var options = {
+           enableSPA: true,
+           hashSPA: false,
+           warningImageSize: 400,
+           traceLongtask: true,
+           ignoreUrlPath: [{ rule: /\/\d{1,20}/g, target: '/**' }],
+           uploadServer: uploadServer,
+           syncConfig: false,
+           debug: uploadToTest
+        };
+        install && MusicAPM.install(appKey, options);
+   }
+})();</script><script src="https://s6.music.126.net/static_public/5b7eb1637eef609a0a828c74/sdk/3.26.4/music-raven.min.js" async="" crossorigin="anonymous"></script><script>(function () {
+    if (window.Raven) {
+        var puzzleEnv = 'prod' || 'prod';
+        var SENTRY_HOST = 'sentry.music.163.com';
+        var host = 'sentry.music.163.com' || SENTRY_HOST;
+        var options = {
+            sampleRate: 0.1,
+            ignoreErrors: [],
+            shouldSendCallback: function(data) {
+      return true;
+ },
+            autoBreadcrumbs: {"xhr":true,"console":true,"dom":true,"location":true,"sentry":true},
+            tags: {
+                puzzleEnv: 'prod'
+            },
+            withCredentials: host !== SENTRY_HOST
+    }
+    var onlyProd = undefined;
+    if (puzzleEnv === 'prod' || !onlyProd) {
+        var key = '9b84f58e74ed4a3fac006c8d71f29f49';
+        var project = '125';
+        var dsn = 'https://' + key + '@' + host + '/' + project;
+        if (window._sentryOnLoad) {
+            window._sentryOnLoad(dsn, options);
+        } else {
+            Raven.config(dsn, options).install();
+        }
+    }
+}
+})();</script><script async="" src="https://s6.music.126.net/puzzle/puzzle@000028.js"></script><script async="" src="https://s6.music.126.net/puzzle/puzzle@000028.js"></script><script>
+    var userAgent = window.navigator.userAgent;
+    var no_redirect = /(facebookexternalhit\/1.1|Twitterbot)/gi.test(userAgent);
+    if (!userAgent.match(/mobile|mobi|wap|simulator|iphone|android/gi) && !no_redirect) {
+        window.location.replace("https://music.163.com/");
+    }
+</script>
+
+
+<script>!function(){"use strict";window._SENTRY_RELEASE="musicmobilenew-production-132782c";(function(c,i,l,p){var u=function(n){u.data.push(n)};u.data=[];var f=c[i];c[i]=function(n,a,e,t,o){u({e:[].slice.call(arguments)}),f&&f.apply(c,arguments)};var s=c[l];c[l]=function(n){u({p:n.reason}),s&&s.apply(c,arguments)},c._sentryOnLoad=function(n,a){try{c[i]=f,c[l]=s;var e=u.data,t=c.Raven;c[p]&&(a.release=c[p]),t.config(n,a).install();var o=c[i];if(e.length)for(var r=0;r<e.length;r++)e[r].e?o.apply(t.TraceKit,e[r].e):e[r].p&&t.captureException(e[r].p)}catch(n){console.log(n)}}})(window,"onerror","onunhandledrejection","_SENTRY_RELEASE")}()</script><script>!function(i,o){i[o]={eventList:[],loginUser:void 0},i.MusicAPM=i.MusicAPM||{uploadEvent:function(n){i[o].eventList.push(n)},login:function(n){i[o].loginUser=n}}}(window,"_WAPM_CACHE")</script><script>!function(e,n,t,s,c){var r=void 0!==t&&t.resolve,a=e[s];(a=e[s]=function(){this.modules={}}).callbacks=[],a.ready=r?function(){return a.instance?t.resolve(a.instance.vars()):new t(function(e){return a.callbacks.push(e)})}:function(e){return a.instance?e(a.instance.vars()):a.callbacks.push(e)};var i=n.createElement(c),u=n.getElementsByTagName(c)[0];i.async=!0,i.src="https://s6.music.126.net/puzzle/puzzle@000028.js",u.parentNode.insertBefore(i,u)}(window,document,window.Promise,"puzzle","script")</script><link href="//s3.music.126.net/mobile-new/main.8dd0e0a63f4763e50698.css" rel="stylesheet"><script charset="utf-8" src="//s3.music.126.net/mobile-new/async.969eb24a.js"></script><script charset="utf-8" src="//s3.music.126.net/mobile-new/HomeIndex.b6cee452.js"></script><script type="text/javascript" charset="UTF-8" async="" src="https://acstatic-dun.126.net/2.5.4_f5893816/watchman.min.js"></script><script src="https://ae.bdstatic.com/xz/msite/static/sdk/main.833c272c.js"></script></head>
+<body>
+    
+<div id="j-app" class="u-height"><div class="root" data-reactroot=""><div class="m-home "><div class="m-tabarea m-tabarea-index"><div class="m-tabct"><div class="tabctitem"><div class="m-hmsrch"><form class="m-input f-bd f-bd-btm" method="get" action="#"><div class="inputcover"><i class="u-svg u-svg-srch"></i><input type="search" name="search" class="input" placeholder="" autocomplete="off" value=""><label class="holder">搜索歌曲、歌手、专辑</label><figure class="close"><i class="u-svg u-svg-empty"></i></figure></div></form><div class="m-default"><section class="m-hotlist"><h3 class="title">热门搜索</h3><ul class="list"><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">摩登兄弟刘宇宁</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">颜人中好喜欢你</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">Taylor Swift新歌</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">三藏</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">天气之子</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">Bad Guy</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">亲爱的热爱的原声带</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">Ed Sheeran新专辑</a></li><li class="item f-bd f-bd-full"><a class="link" href="javascript:void(0);">段奥娟《一起走的幸福》</a></li></ul></section><section class="m-history"><ul class="list"><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">摩登兄弟刘宇宁</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">123456789</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">颜人中好喜欢你</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">好久不见</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">456</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li><li class="item"><i class="u-svg u-svg-histy"></i><div class="histyr f-bd f-bd-btm"><span class="link f-thide">123</span><figure class="close"><i class="u-svg u-svg-close"></i></figure></div></li></ul></section></div></div></div></div></div></div></div></div>
+
+
+
+    <script>
+        !function(e,n,t,s,c){var r=void 0!==t&&t.resolve,a=e[s];(a=e[s]=function(){this.modules={}}).callbacks=[],a.ready=r?function(){return a.instance?t.resolve(a.instance.vars()):new t(function(e){return a.callbacks.push(e)})}:function(e){return a.instance?e(a.instance.vars()):a.callbacks.push(e)};var i=n.createElement(c),u=n.getElementsByTagName(c)[0];i.async=!0,i.src="https://s6.music.126.net/puzzle/puzzle@000028.js",u.parentNode.insertBefore(i,u)}(window,document,window.Promise,"puzzle","script");
+    </script>
+<script type="text/javascript" src="//s3.music.126.net/mobile-new/runtime.ee7efc43.js"></script><script type="text/javascript" src="//s3.music.126.net/mobile-new/vendors.17f31474.js"></script><script type="text/javascript" src="//s3.music.126.net/mobile-new/app.84ef58ef.js"></script><script type="text/javascript" src="//s3.music.126.net/mobile-new/main.53f3bdec.js"></script><script src="https://acstatic-dun.126.net/tool.min.js"></script>
+
+</body></html>
